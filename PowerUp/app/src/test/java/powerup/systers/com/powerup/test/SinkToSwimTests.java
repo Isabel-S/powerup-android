@@ -59,8 +59,7 @@ public class SinkToSwimTests {
         activity.gameEnd();
 
         ShadowActivity shadowActivity = Shadows.shadowOf(activity);
-        Intent actualIntent = shadowActivity.getNextStartedActivity;
-        
+        Intent actualIntent = shadowActivity.getNextStartedActivity();
         /**
          * The expected Intent is SinkToSwinEndActivity.
          * This tests if the SinkToSwinEndActivity is the next activity.
@@ -302,7 +301,7 @@ public class SinkToSwimTests {
         String correctAnswer = "F";
 
         activity.answerChosen(activity.findViewById(R.id.true_option));
-        
+
          /**
          * On the first question the answer is false
          * When answerChosen runs with the "true" option, the answer would be wrong
