@@ -3,7 +3,7 @@
  * a new user will be brought to the “Avatar Room” to customize avatar
  * upon starting the app.
  */
-
+hi
 package powerup.systers.com;
 
 import android.app.Activity;
