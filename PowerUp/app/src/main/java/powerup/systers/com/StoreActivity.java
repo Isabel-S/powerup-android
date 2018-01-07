@@ -302,7 +302,7 @@ public class StoreActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View v) {
                     if (v.isEnabled()){
-
+                        //dialog here??
                         TextView itemPoints = (TextView) v.findViewById(R.id.item_points);
                         int index = calculatePosition(position)+1;
                         if (storeItemTypeindex == 0) { //hair
