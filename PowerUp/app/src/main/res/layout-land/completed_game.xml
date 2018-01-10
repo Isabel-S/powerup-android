@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/plain_background">
-
+//hi
     <TextView
         android:id="@+id/completed_game_textView"
         android:layout_width="@dimen/completed_scene_text_land_width"
