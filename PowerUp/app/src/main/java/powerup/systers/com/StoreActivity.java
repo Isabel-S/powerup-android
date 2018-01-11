@@ -370,7 +370,7 @@ public class StoreActivity extends AppCompatActivity {
             return getmDbHandler().getPurchasedAccessories(index);
         }
         return 0;
-    }
+    }／／haii
 
     public DatabaseHandler getmDbHandler() {
         return mDbHandler;
